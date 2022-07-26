@@ -29,7 +29,7 @@
           <img id="personal-logo" src="./assets/logo.svg" alt="" />
         </figure>
         <ul class="nav__link--list">
-          <li class="nav__link">
+          <li class="nav__link" onclick="toggleModal()">
             <a
               href="#"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
@@ -38,7 +38,7 @@
           </li>
           <li class="nav__link">
             <a
-              href="#"
+              href="#projects"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Projects</a
             >
@@ -97,9 +97,11 @@
           </div>
         </div>
       </header>
-      <button class="mail__btn click" onclick="toggleModal()">
-        <i class="fa-solid fa-envelope"></i>
-      </button>
+      <a href="#">
+        <button class="mail__btn click" onclick="toggleModal()">
+          <i class="fa-solid fa-envelope"></i>
+        </button>
+      </a>
       <a href="#projects" class="scroll">
         <div class="scroll__icon click"></div>
       </a>
@@ -315,9 +317,15 @@
     <footer>
       <div class="container">
         <div class="row footer__row">
-          <figure>
-            <img class="footer__logo--img" src="./assets//logo.svg" alt="" />
-          </figure>
+          <a href="#" class="footer__anchor">
+            <figure class="footer__logo">
+              <img class="footer__logo--img" src="./assets//logo.svg" alt="" />
+            </figure>
+            <span class="footer__logo--popper">
+              Top
+              <i class="fas fa-arrow-up"></i>
+            </span>
+          </a>
           <div class="footer__social--list">
             <a
               href="https://github.com/ethansalonga"
@@ -334,7 +342,8 @@
               LinkedIn
             </a>
             <a
-              href=""
+              href="#"
+              onclick="toggleModal()"
               class="footer__social--link link__hover-effect link__hover-effect--white"
             >
               Contact
