@@ -65,7 +65,7 @@ textarea:hover {
 
 input:focus,
 textarea:focus {
-  border-color: #f06449;
+  border-color: #97477c;
 }
 
 .container {
@@ -100,8 +100,8 @@ textarea:focus {
   line-height: 1;
 }
 
-.orange {
-  color: #f06449 !important;
+.blue {
+  color: #4895bf !important;
 }
 
 .link__hover-effect {
@@ -179,6 +179,11 @@ nav,
   color: #242424;
 }
 
+.dark-theme .shape {
+  filter: brightness(0) saturate(100%) invert(90%) sepia(19%) saturate(727%)
+    hue-rotate(162deg) brightness(89%) contrast(94%);
+}
+
 /* 
 
   LANDING PAGE 
@@ -212,7 +217,7 @@ nav,
 }
 
 .social__link {
-  background-color: #f06449;
+  background-color: #97477c;
   color: white;
   padding: 6px;
   width: 32px;
@@ -425,8 +430,8 @@ nav {
 }
 
 .form__submit {
-  background-color: #f06449;
-  border: 2px solid #f06449;
+  background-color: #97477c;
+  border: 2px solid #97477c;
   color: white;
   font-weight: 700;
   width: 100%;
@@ -442,8 +447,8 @@ nav {
 }
 
 .form__submit:active {
-  border-color: #f06449;
-  color: #f06449;
+  border-color: #97477c;
+  color: #97477c;
 }
 
 .modal__overlay {
@@ -628,11 +633,13 @@ footer {
 .shape {
   position: fixed;
   z-index: 0;
+  filter: brightness(0) saturate(100%) invert(12%) sepia(10%) saturate(3955%)
+  hue-rotate(206deg) brightness(95%) contrast(100%);
 }
 
 .shape--0 {
   top: 15vh;
-  left: 5vw;
+  left: 15vw;
 }
 
 .shape--1 {
@@ -647,7 +654,7 @@ footer {
 
 .shape--3 {
   top: 50vh;
-  left: 5vw;
+  left: 15vw;
 }
 
 .shape--4 {
@@ -662,7 +669,7 @@ footer {
 
 .shape--6 {
   top: 80vh;
-  left: 5vw;
+  left: 15vw;
 }
 
 .shape--7 {
@@ -717,6 +724,11 @@ footer {
   .modal__half {
     width: 100%;
   }
+
+  .shape--3,
+  .shape--4 {
+    display: none;
+  }
 }
 
 /* Small phones */
@@ -750,5 +762,9 @@ footer {
 
   .modal__half {
     padding: 40px;
+  }
+
+  .shape {
+    display: none;
   }
 }
