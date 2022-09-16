@@ -4,19 +4,19 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="/assets/ethan_salonga-circle.png" alt="Logo" width="160" height="160">
+    <img src="/assets/ethan_salonga-circle.png" alt="Logo" width="220" height="220">
   </a>
-
-  <h3 align="center">Ethan Salonga</h3>
 </div>
 
-<!-- ABOUT THE PROJECT -->
+<!-- ABOUT ME -->
 
-## About The Project
+## About Me
 
 [![Product Name Screen Shot][product-screenshot]](https://ethansalonga.dev/)
 
-Hey, I'm Ethan! I'm a professional Frontend Developer in my first ever tech role and loving every day of it! I used to be a biomedical engineer before successfully switching careers and transitioning into tech at the start of 2022 after teaching myself frontend development for a few months! I have a passion for designing websites and applications with great user interfaces/experiences, and my favorite language is React.
+Hey, I'm Ethan! I'm a professional Frontend Developer in my first ever tech role and loving every day of it! I used to be a biomedical engineer before successfully switching careers and transitioning into tech at the start of 2022, after teaching myself frontend development for a few months! I have a passion for designing websites and applications with great user interfaces/experiences, and my favorite language to work with is React. 
+
+I've always been a lifelong learner. I love picking up new things about frontend development and software in general every day, both during and outside of work hours. While I love working on the frontend, I'd love to branch out and learn new skills and technologies such as backend development, machine learning, cloud engineering, cybersecurity, etc. I'm extremely excited, grateful, and motivated to be at the start of my programming journey, and I can't wait to see what the future has in store! Feel free to connect with me on LinkedIn or GitHub, or shoot me an e-mail directly at ethan@ethansalonga.dev!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -34,7 +34,7 @@ Hey, I'm Ethan! I'm a professional Frontend Developer in my first ever tech role
 
 Ethan Salonga - [E-portfolio](https://ethansalonga.dev/) - ethan@ethansalonga.dev
 
-Project Link: [https://github.com/ethansalonga/mythic-ecommerce](https://github.com/ethansalonga/mythic-ecommerce)
+Project Link: [https://ethansalonga.dev/](https://ethansalonga.dev/)
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -44,4 +44,4 @@ Project Link: [https://github.com/ethansalonga/mythic-ecommerce](https://github.
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/ethan-salonga/
-[product-screenshot]: src/assets/screenshot.png
+[product-screenshot]: /assets/screenshot.png
