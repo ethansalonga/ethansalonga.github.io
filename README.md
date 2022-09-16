@@ -3,9 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="/assets/ethan_salonga-circle.png" alt="Logo" width="220" height="220">
-  </a>
+  <img src="/assets/ethan_salonga-circle.png" alt="Logo" width="220" height="220">
 </div>
 
 <!-- ABOUT ME -->
